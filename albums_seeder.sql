@@ -1,4 +1,5 @@
 USE bigfoot_test_db;
+TRUNCATE bigfoot_test_db.albums;
 
 INSERT INTO albums (name, artist, release_date, genre, sales)
     VALUES
@@ -20,4 +21,5 @@ INSERT INTO albums (name, artist, release_date, genre, sales)
         ('Hybrid Theory', 'Linkin Park', 2000, 'Alternative rock, nu metal, rap rock', 20),
         ('No Fences', 'Garth Brooks', 1990, 'Country', 17),
         ('The Wall', 'Pink Floyd', 1979, 'Progressive rock, art rock', 17),
-        ('Dirty Dancing', 'Various artists', 1987, 'Pop rock, R&B, pop, soul', 17);
+        ('Dirty Dancing', 'Various artists', 1987, 'Pop rock, R&B, pop, soul', 17),
+        ('Whitney Houston', 'Whitney Houston', 1985, 'Pop, Soul', 29.0);

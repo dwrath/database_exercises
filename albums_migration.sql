@@ -11,5 +11,6 @@ CREATE TABLE albums (
                         genre VARCHAR(255) NOT NULL,
                         PRIMARY KEY (id)
 );
+SELECT * FROM albums;
 CREATE USER 'codeup_test_user'@'localhost' IDENTIFIED BY '123';
 GRANT ALL PRIVILEGES ON bigfoot_test_db.* TO 'codeup_test_user'@'localhost' WITH GRANT OPTION;
