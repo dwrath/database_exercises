@@ -9,7 +9,8 @@ CREATE TABLE albums (
                         release_date INT NOT NULL,
                         sales FLOAT NOT NULL,
                         genre VARCHAR(255) NOT NULL,
-                        PRIMARY KEY (id)
+                        PRIMARY KEY (id),
+                        UNIQUE(artist, name)
 );
 SELECT * FROM albums;
 CREATE USER 'codeup_test_user'@'localhost' IDENTIFIED BY '123';
